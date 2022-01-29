@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem04.SinglyLinkedList"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SinglyLinkedList.Tests", "SinglyLinkedList.Tests\SinglyLinkedList.Tests.csproj", "{34AEEB4F-CA0A-41D0-9594-C4310694EFA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{97C82095-4E30-4942-BCFF-B8CDB1DD7C22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SandBox", "ConsoleApp1\SandBox.csproj", "{97C82095-4E30-4942-BCFF-B8CDB1DD7C22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
