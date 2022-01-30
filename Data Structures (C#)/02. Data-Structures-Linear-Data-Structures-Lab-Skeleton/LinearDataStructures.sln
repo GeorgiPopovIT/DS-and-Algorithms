@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem04.SinglyLinkedList"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SinglyLinkedList.Tests", "SinglyLinkedList.Tests\SinglyLinkedList.Tests.csproj", "{34AEEB4F-CA0A-41D0-9594-C4310694EFA1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SandBox", "ConsoleApp1\SandBox.csproj", "{97C82095-4E30-4942-BCFF-B8CDB1DD7C22}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandBox", "SandBox\SandBox.csproj", "{6BFF1D52-D7BD-47D8-9B1E-838B33A37CD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,10 +59,10 @@ Global
 		{34AEEB4F-CA0A-41D0-9594-C4310694EFA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34AEEB4F-CA0A-41D0-9594-C4310694EFA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34AEEB4F-CA0A-41D0-9594-C4310694EFA1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{97C82095-4E30-4942-BCFF-B8CDB1DD7C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{97C82095-4E30-4942-BCFF-B8CDB1DD7C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{97C82095-4E30-4942-BCFF-B8CDB1DD7C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{97C82095-4E30-4942-BCFF-B8CDB1DD7C22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BFF1D52-D7BD-47D8-9B1E-838B33A37CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BFF1D52-D7BD-47D8-9B1E-838B33A37CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BFF1D52-D7BD-47D8-9B1E-838B33A37CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BFF1D52-D7BD-47D8-9B1E-838B33A37CD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -82,6 +82,7 @@ namespace SinglyLinkedList.Tests
         }
 
         [Test]
+
         public void RemoveLastShouldWorkAsExpected()
         {
             var count = this._random.Next(10, 30);
