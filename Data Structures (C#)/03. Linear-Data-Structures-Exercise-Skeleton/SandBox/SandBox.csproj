@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\01.FasterQueue\01.FasterQueue.csproj" />
+    <ProjectReference Include="..\02.DoublyLinkedList\02.DoublyLinkedList.csproj" />
   </ItemGroup>
 
 </Project>

@@ -5,5 +5,8 @@
         public T Item { get; set; }
 
         public Node<T> Next { get; set; }
+
+        public Node<T> Previous { get; set; }
+
     }
 }

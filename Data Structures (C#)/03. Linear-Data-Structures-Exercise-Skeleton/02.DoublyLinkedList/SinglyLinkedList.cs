@@ -54,13 +54,13 @@
 
         public T GetLast()
         {
-            this.EnsureNotEmpty();
+                this.EnsureNotEmpty();
 
-            var current = this.head;
-            while (current.Next != null)
-                current = current.Next;
+                var current = this.head;
+                while (current.Next != null)
+                    current = current.Next;
 
-            return current.Item;
+                return current.Item;
         }
 
         public T RemoveFirst()

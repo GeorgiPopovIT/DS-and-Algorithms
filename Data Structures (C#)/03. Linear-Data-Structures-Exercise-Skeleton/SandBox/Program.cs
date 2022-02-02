@@ -1,5 +1,5 @@
-﻿using Problem01.FasterQueue;
-using System;
+﻿using System;
+using Problem02.DoublyLinkedList;
 
 namespace SandBox
 {
@@ -7,15 +7,17 @@ namespace SandBox
     {
         static void Main(string[] args)
         {
-            var fastQueue = new FastQueue<int>();
+            var linkedList = new DoublyLinkedList<int>();
 
-            fastQueue.Enqueue(1);
-            fastQueue.Enqueue(2);
-            fastQueue.Enqueue(3);
-            fastQueue.Dequeue();
+            linkedList.AddFirst(1);
+            linkedList.AddFirst(2);
+            linkedList.AddFirst(3);
+            
 
+            linkedList.RemoveLast();
+            linkedList.RemoveLast();
+            linkedList.RemoveLast();
 
-            Console.WriteLine(fastQueue.Peek());
         }
     }
 }
