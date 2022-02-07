@@ -8,6 +8,8 @@
   <ItemGroup>
     <ProjectReference Include="..\01.FasterQueue\01.FasterQueue.csproj" />
     <ProjectReference Include="..\02.DoublyLinkedList\02.DoublyLinkedList.csproj" />
+    <ProjectReference Include="..\03.ReversedList\03.ReversedList.csproj" />
+    <ProjectReference Include="..\04.BalancedParentheses\04.BalancedParentheses.csproj" />
   </ItemGroup>
 
 </Project>

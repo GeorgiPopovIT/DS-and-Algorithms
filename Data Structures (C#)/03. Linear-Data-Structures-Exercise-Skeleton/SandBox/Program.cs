@@ -1,5 +1,5 @@
 ﻿using System;
-using Problem02.DoublyLinkedList;
+using Problem04.BalancedParentheses;
 
 namespace SandBox
 {
@@ -7,17 +7,10 @@ namespace SandBox
     {
         static void Main(string[] args)
         {
-            var linkedList = new DoublyLinkedList<int>();
-
-            linkedList.AddFirst(1);
-            linkedList.AddFirst(2);
-            linkedList.AddFirst(3);
-            
-
-            linkedList.RemoveLast();
-            linkedList.RemoveLast();
-            linkedList.RemoveLast();
-
+            BalancedParenthesesSolve balanced = new BalancedParenthesesSolve();
+            Console.WriteLine(balanced.AreBalanced("({})"));
+            Console.WriteLine(balanced.AreBalanced("{[()]}"));
+            Console.WriteLine(balanced.AreBalanced("{[(]]}"));
         }
     }
 }
