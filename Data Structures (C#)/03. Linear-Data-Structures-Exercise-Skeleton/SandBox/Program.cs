@@ -1,5 +1,6 @@
 ﻿using System;
-using Problem04.BalancedParentheses;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace SandBox
 {
@@ -7,10 +8,7 @@ namespace SandBox
     {
         static void Main(string[] args)
         {
-            BalancedParenthesesSolve balanced = new BalancedParenthesesSolve();
-            Console.WriteLine(balanced.AreBalanced("({})"));
-            Console.WriteLine(balanced.AreBalanced("{[()]}"));
-            Console.WriteLine(balanced.AreBalanced("{[(]]}"));
+            
         }
     }
 }

@@ -93,7 +93,7 @@
             {
                 if (_items[i].Equals(item))
                 {
-                    for (int j = i; j < this.Count; j++)
+                    for (int j = i; j < this.Count ; j++)
                     {
                         this._items[j] = this._items[j + 1];
                     }
