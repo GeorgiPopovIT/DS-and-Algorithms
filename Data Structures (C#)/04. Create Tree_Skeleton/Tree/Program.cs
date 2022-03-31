@@ -11,6 +11,7 @@ namespace Tree
                             new Tree<int>(21),
                             new Tree<int>(14,new Tree<int>(23),new Tree<int>(6)));
 
+
             Console.WriteLine(string.Join(", ",tree.OrderDfs()));
             
         }
