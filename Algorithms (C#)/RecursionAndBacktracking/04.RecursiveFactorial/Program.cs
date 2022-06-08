@@ -6,7 +6,20 @@ namespace _04.RecursiveFactorial
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int n = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(SumFactorial(n));
+        }
+
+        private static long SumFactorial(int n)
+        {
+            if (n == 0)
+            {
+                return 1;
+            }
+
+            return n * SumFactorial(n - 1);
+
         }
     }
 }
