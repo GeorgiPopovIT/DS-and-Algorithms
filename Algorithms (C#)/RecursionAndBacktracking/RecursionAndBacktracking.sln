@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Generating0or1Vectors", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.RecursiveFactorial", "04.RecursiveFactorial\04.RecursiveFactorial.csproj", "{E0F279A4-C8A8-458C-A789-8DF59D7FFA94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.RecursiveFibonacci", "07.RecursiveFibonacci\07.RecursiveFibonacci.csproj", "{5D7B0BFE-FB09-4DF0-8171-0319ED26D961}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{E0F279A4-C8A8-458C-A789-8DF59D7FFA94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0F279A4-C8A8-458C-A789-8DF59D7FFA94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0F279A4-C8A8-458C-A789-8DF59D7FFA94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D7B0BFE-FB09-4DF0-8171-0319ED26D961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7B0BFE-FB09-4DF0-8171-0319ED26D961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7B0BFE-FB09-4DF0-8171-0319ED26D961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7B0BFE-FB09-4DF0-8171-0319ED26D961}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
