@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 public class HashTable<TKey, TValue> : IEnumerable<KeyValue<TKey, TValue>>
 {
@@ -109,7 +110,9 @@ public class HashTable<TKey, TValue> : IEnumerable<KeyValue<TKey, TValue>>
 
     public bool ContainsKey(TKey key)
     {
-        throw new NotImplementedException();
+        var element = this.Find(key);
+
+        return element != null;
     }
 
     public bool Remove(TKey key)
@@ -119,14 +122,15 @@ public class HashTable<TKey, TValue> : IEnumerable<KeyValue<TKey, TValue>>
 
     public void Clear()
     {
-        throw new NotImplementedException();
+        this.slots = new LinkedList<KeyValue<TKey, TValue>>[16];
+        this.Count = 0;
     }
 
     public IEnumerable<TKey> Keys
     {
         get
         {
-            throw new NotImplementedException();
+            return this.Select(element => element.Key);
         }
     }
 
@@ -134,7 +138,7 @@ public class HashTable<TKey, TValue> : IEnumerable<KeyValue<TKey, TValue>>
     {
         get
         {
-            throw new NotImplementedException();
+            return null;
         }
     }
 
@@ -156,18 +160,19 @@ public class HashTable<TKey, TValue> : IEnumerable<KeyValue<TKey, TValue>>
 
     private void GrowIfNeeded()
     {
-        if (this.slots.Length == this.Count)
-        {
-            Array.Resize(ref this.slots, this.slots.Length * 2);
-            //var newArray = new LinkedList<KeyValue<TKey, TValue>>[this.slots.Length * 2];
+        //if (this.slots.Length == this.Count)
+        //{
+        //   // Array.Resize(ref this.slots, this.slots.Length * 2);
 
-            //for (int i = 0; i < this.slots.Length; i++)
-            //{
-            //    newArray[i] = this.slots[i];
-            //}
+        //    //var newArray = new LinkedList<KeyValue<TKey, TValue>>[this.slots.Length * 2];
 
-            //this.slots = newArray;
-        }
+        //    //for (int i = 0; i < this.slots.Length; i++)
+        //    //{
+        //    //    newArray[i] = this.slots[i];
+        //    //}
+
+        //    //this.slots = newArray;
+        //}
     }
 
     private int FindSlotNumber(TKey key)
