@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.ReverseArray", "01.ReversedArray\01.ReverseArray.csproj", "{94146E3E-FCD9-4BAF-A44F-80ED731A9BEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Nested Loops", "02. Nested Loops\02. Nested Loops.csproj", "{0EAD27A3-05C6-4239-9DE4-201980EAED01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{94146E3E-FCD9-4BAF-A44F-80ED731A9BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94146E3E-FCD9-4BAF-A44F-80ED731A9BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94146E3E-FCD9-4BAF-A44F-80ED731A9BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EAD27A3-05C6-4239-9DE4-201980EAED01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EAD27A3-05C6-4239-9DE4-201980EAED01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EAD27A3-05C6-4239-9DE4-201980EAED01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EAD27A3-05C6-4239-9DE4-201980EAED01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
