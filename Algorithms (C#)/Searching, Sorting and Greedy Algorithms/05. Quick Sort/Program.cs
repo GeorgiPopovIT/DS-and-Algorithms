@@ -1,4 +1,7 @@
-﻿namespace _05._Quick_Sort
+﻿using System;
+using System.Linq;
+
+namespace _05._Quick_Sort
 {
     public class Program
     {
