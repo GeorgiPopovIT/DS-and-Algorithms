@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Selection Sort", "02. S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Bubble Sort", "03. Bubble Sort\03. Bubble Sort.csproj", "{1EA3E9DF-9BAB-4524-B88D-0CD479888EB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Insertion Sort", "04.Insertion Sort\04.Insertion Sort.csproj", "{8DBE2708-B8FC-40DB-979C-889BFE0B8282}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.Insertion Sort", "04.Insertion Sort\04.Insertion Sort.csproj", "{8DBE2708-B8FC-40DB-979C-889BFE0B8282}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Quick Sort", "05. Quick Sort\05. Quick Sort.csproj", "{B4C99B61-2D5B-49A0-8098-A29C8333BC14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Quick Sort", "05. Quick Sort\05. Quick Sort.csproj", "{B4C99B61-2D5B-49A0-8098-A29C8333BC14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Merge Sort", "06. Merge Sort\06. Merge Sort.csproj", "{DFD1FDF0-B17F-4E54-A3F6-E8C49802D267}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B4C99B61-2D5B-49A0-8098-A29C8333BC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4C99B61-2D5B-49A0-8098-A29C8333BC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4C99B61-2D5B-49A0-8098-A29C8333BC14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD1FDF0-B17F-4E54-A3F6-E8C49802D267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD1FDF0-B17F-4E54-A3F6-E8C49802D267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD1FDF0-B17F-4E54-A3F6-E8C49802D267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD1FDF0-B17F-4E54-A3F6-E8C49802D267}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
