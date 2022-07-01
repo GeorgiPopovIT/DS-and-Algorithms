@@ -49,6 +49,7 @@
             QuickSort(input, right + 1, end);
         }
 
+
         private static void Swap(int[] input, int first, int second)
         {
             var temp = input[first];
