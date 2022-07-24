@@ -133,7 +133,7 @@ namespace _2._Topological_Sorting
                     .Select(e => e.Trim())
                     .ToArray();
 
-                var key = parts[0];
+                var key = parts[0]; 
 
                 if (parts.Length == 1)
                 {
