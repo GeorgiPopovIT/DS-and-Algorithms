@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace _03._Longest_Common_Subsequence
 {
@@ -27,6 +28,31 @@ namespace _03._Longest_Common_Subsequence
             }
 
             Console.WriteLine(lcs[str1.Length,str2.Length]);
+
+            var row = str1.Length;
+            var col = str2.Length;
+
+            var commonElements = new Stack<char>();
+
+            while (row > 0 && col > 0)
+            {
+                if (str1[row - 1] == str2[col - 1])
+                {
+                    commonElements.Push(str1[row - 1]);
+                    row -= 1;
+                    col -= 1;
+                }
+                else if (lcs[row - 1,col] > lcs[row,col - 1])
+                {
+                    row -= 1;
+                }
+                else
+                {
+                    col -= 1;
+                }
+            }
+
+            Console.WriteLine(string.Join("",commonElements));
         }
     }
 }
